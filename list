@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=" viewport" content="width=device-width,initial-scale=1.0">
+<title>Ryoof - spotify playlist</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li class ="brand"><img src="img.png" alt="spotufy">spotify</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+</nav>
+<div class="container">
+
+<div class="songList">
+    <h1> Summer playlist</h1>
+    <div class="songItemcontainer">
+        <div class="songItem"> 
+            <img src="img3.png" alt="1">
+            <span>  SUMMER AGAIN</span>
+        <span class="songlistplay"><span class="timestamp"> 03:27  <a href="https://youtu.be/7L6IwJeD0lE" target="_blank"> <i class="far fa-1x  fa-play-circle"> </i></a></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img4.png" alt="1">
+            <span> BABY BLUE </span>
+        <span class="songlistplay"><span class="timestamp"> 06:09 <a href="https://youtu.be/5RXib7hZGxI" target="_blank"> <i class="far fa-1x  fa-play-circle"></i></a></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img5.png" alt="1">
+            <span> VOICE </span>
+        <span class="songlistplay"><span class="timestamp"> 03:11 <a href="https://youtu.be/35sE0gp72SU" target="_blank"><i class="far fa-1x  fa-play-circle"></i></a></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img6.png" alt="1">
+            <span> LOVE SO SWEET &#128521 </span>
+        <span class="songlistplay"><span class="timestamp"> 03:07 <a href="https://youtu.be/9OZPwJdl_4w" target="_blank"><i class="far fa-1x  fa-play-circle"></i></a> </span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img7.png" alt="1">
+            <span> SCANDALOUS </span>
+        <span class="songlistplay"><span class="timestamp"> 02:57 <a href="https://youtu.be/sk2hSzgNT4A" target="_blank"><i class="far fa-1x  fa-play-circle"></i></a></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img8.png" alt="1">
+            <span> SIREN </span>
+        <span class="songlistplay"><span class="timestamp"> 03:18 <a href="https://youtu.be/7wXD5ab2VVQ" target="_blank"><i class="far fa-1x  fa-play-circle"></i></a></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img9.png" alt="1">
+            <span> WONDERFUL LIFE </span>
+        <span class="songlistplay"><span class="timestamp"> 05:34 <a href="https://youtu.be/abGe6uM9Ias"target="_blank"><i class="far fa-1x  fa-play-circle"></i></a></i></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img10.png" alt="1">
+            <span> CHEMTRAIL &#128571 </span>
+        <span class="songlistplay"><span class="timestamp"> 03:00 <a href="https://youtu.be/vBHild0PiTE"target="_blank"><i class="far fa-1x  fa-play-circle"></i></a></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img11.png" alt="1">
+            <span> USED TO BE </span>
+        <span class="songlistplay"><span class="timestamp"> 03:58 <a href="https://youtu.be/AEVjxKlP3nA"target="_blank"><i class="far fa-1x  fa-play-circle"></i></a></span> </span>
+        </div>
+        <div class="songItem"> 
+            <img src="img12.png" alt="1">
+            <span> FREAKS </span>
+        <span class="songlistplay"><span class="timestamp"> 02:26 <a href="https://youtu.be/RJnMWK9mrgQ" target="_blank"><i class="far fa-1x  fa-play-circle"></i></a> </span> </span>
+        </div>
+    </div>
+  </div>
+<div class="songBanner"></div>
+
+
+    <script src="script.js"> </script>
+    <script src="https://kit.fontawesome.com/ec68639220.js" crossorigin="anonymous"></script
+</body>
+
+
+
+
+</html>
+------------------------------------------------------------css
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite ;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+nav ul{
+display: flex;
+align-items: center;
+list-style-type:none;
+height: 65px;
+background-color: black;
+color: white;
+}
+nav ul li{
+padding: 012px;
+
+
+}
+.brand img{
+    width:44px;
+    padding:08px;
+}
+.brand{
+    display:flex;
+    align-items:center;
+    font-weight:bolder;
+    font-size:1.2rem;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: #f7f0f0;
+    font-family: 'Varela Round', sans-serif;
+    display:flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('img2.png');
+    
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+   background-color: rgb(7, 7, 7);
+   bottom: 0;
+   color:white;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction: column;
+
+}
+.icons{
+    margin-top: 14px;
+}
+.incons i{
+cursor: pointer;
+
+}
+#myProgressBar{
+width: 80vw;
+cursor: pointer;
+
+
+}
+.songItem{
+height: 90px;
+display:flex;
+background-color:#a06f07;
+width: 100%;
+color: rgb(22, 20, 20);
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+}
+.songItem img{
+   
+    width:80px;
+margin: 0 23px;
+border-radius: 34px;
+
+}
+.songinfo{
+    position: absolute;
+    left:5vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+}
+.timestamp{
+   
+  margin: 0 23px;
+    
+}
+.timestamp{
+   cursor: pointer;
+}
+.songItemcontainer{
+    margin-top:34px ;
+    
+}
+a{
+    color: black;
+    transition: 0.4ase;
+}
+a:hover{
+
+    color: antiquewhite;
+}
